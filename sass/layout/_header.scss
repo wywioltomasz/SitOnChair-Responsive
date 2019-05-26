@@ -1,0 +1,28 @@
+$color_main: #39BF9F;
+$color_black: #010101;
+$color_white: #fdfdfd;
+
+header {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  background-color: $color_black;
+  height: 130px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  .logo {
+    color: $color_white;
+    margin-left: 3%;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 600;
+    &--greentext {
+      color: $color_main;
+      font-weight: 900;
+    }
+  }
+}
+.resizer {
+  height: 130px;
+}
